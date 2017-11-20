@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"va",
+				"validate_dot_com"
+			],
+			[
+				"vali",
+				"validate_url"
+			],
+			[
+				"URL",
+				"URLValidator"
+			],
+			[
+				"url",
+				"url_validator"
+			],
+			[
+				"Sub",
+				"SubmitUrlForm"
+			],
+			[
+				"sh",
+				"SHORTCODE_MAX"
+			],
+			[
+				"Htt",
+				"HTTPResponse"
+			],
+			[
 				"auto",
 				"auto_now_add"
 			]
@@ -12,37 +40,47 @@
 	"buffers":
 	[
 		{
+			"file": "src/shortener/views.py",
+			"settings":
+			{
+				"buffer_size": 1442,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/shortener/templates/shortener/success.html",
+			"settings":
+			{
+				"buffer_size": 172,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/shortener/templates/shortener/already-exists.html",
+			"settings":
+			{
+				"buffer_size": 171,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/shortener/templates/shortener/home.html",
+			"settings":
+			{
+				"buffer_size": 268,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "src/shortener/models.py",
 			"settings":
 			{
-				"buffer_size": 302,
+				"buffer_size": 1535,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/shortener/migrations/0001_initial.py",
-			"settings":
-			{
-				"buffer_size": 766,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/kirr/settings.py",
-			"settings":
-			{
-				"buffer_size": 3108,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/shortener/apps.py",
-			"settings":
-			{
-				"buffer_size": 93,
 				"line_ending": "Unix"
 			}
 		}
@@ -114,15 +152,34 @@
 		"/home/clocker/Desktop/trydjango110",
 		"/home/clocker/Desktop/trydjango110/src",
 		"/home/clocker/Desktop/trydjango110/src/kirr",
+		"/home/clocker/Desktop/trydjango110/src/kirr/__pycache__",
 		"/home/clocker/Desktop/trydjango110/src/shortener",
 		"/home/clocker/Desktop/trydjango110/src/shortener/__pycache__",
-		"/home/clocker/Desktop/trydjango110/src/shortener/migrations"
+		"/home/clocker/Desktop/trydjango110/src/shortener/templates",
+		"/home/clocker/Desktop/trydjango110/src/shortener/templates/shortener",
+		"/home/clocker/Desktop/trydjango110/src/templates"
 	],
 	"file_history":
 	[
+		"/home/clocker/Desktop/trydjango110/src/kirr/urls.py",
+		"/home/clocker/Desktop/trydjango110/src/kirr/settings.py",
+		"/home/clocker/Desktop/trydjango110/src/shortener/validators.py",
+		"/home/clocker/Desktop/trydjango110/src/shortener/models.py",
+		"/home/clocker/Desktop/trydjango110/src/shortener/forms.py",
+		"/home/clocker/Desktop/trydjango110/src/templates/shortener/home.html",
+		"/home/clocker/Desktop/trydjango110/src/shortener/templates/shortener/home.html",
+		"/home/clocker/Desktop/trydjango110/src/shortener/views.py",
+		"/home/clocker/Desktop/trydjango110/src/kirr/hosts.py",
+		"/home/clocker/Desktop/trydjango110/src/kirr/hostsconf/views.py",
+		"/home/clocker/Desktop/trydjango110/src/kirr/hostsconf/urls.py",
+		"/home/clocker/Desktop/trydjango110/src/kirr/hostsconf/__init__.py",
+		"/home/clocker/Desktop/trydjango110/src/shortener/management/commands/refreshcodes.py",
+		"/home/clocker/Desktop/trydjango110/src/shortener/utils.py",
 		"/home/clocker/Desktop/trydjango110/src/shortener/migrations/0001_initial.py",
-		"/home/clocker/Desktop/trydjango110/src/shortener/admin.py",
-		"/home/clocker/Desktop/trydjango110/src/shortener/models.py"
+		"/home/clocker/Desktop/trydjango110/src/shortener/management/commands/__init__.py",
+		"/home/clocker/Desktop/trydjango110/src/shortener/management/__init__.py",
+		"/home/clocker/Desktop/trydjango110/src/shortener/management/refreshcodes.py",
+		"/home/clocker/Desktop/trydjango110/src/shortener/admin.py"
 	],
 	"find":
 	{
@@ -157,59 +214,58 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/shortener/models.py",
+					"file": "src/shortener/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 302,
+						"buffer_size": 1442,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								302,
-								302
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/shortener/migrations/0001_initial.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 766,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23,
-								23
+								990,
+								990
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 20.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/shortener/templates/shortener/success.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								172,
+								172
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -220,60 +276,87 @@
 				},
 				{
 					"buffer": 2,
-					"file": "src/kirr/settings.py",
+					"file": "src/shortener/templates/shortener/already-exists.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3108,
+						"buffer_size": 171,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1083,
-								1083
+								141,
+								108
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 421.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "src/shortener/apps.py",
-					"semi_transient": true,
+					"file": "src/shortener/templates/shortener/home.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 93,
+						"buffer_size": 268,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
+								43,
 								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/shortener/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1535,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1105,
+								1105
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 44.0,
+						"translation.y": 242.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -360,7 +443,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 247.0,
+	"side_bar_width": 250.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

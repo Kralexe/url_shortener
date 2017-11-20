@@ -1,11 +1,21 @@
-<div style='width: 800px; margin: 0 auto;'>
+{%extends 'base.html'%}
 
-	<h1>{{ title }}</h1>
+{% block content %}
+<div class='container'>
+	<div class='row'>
+		<div class='text-center col-sm-12'>
+			<h1>{{ title }}</h1>
 
-	<form method='POST' action='.'> {% csrf_token %}
-		<!-- <input name='url' type='text' placeholder='Shorten your URL' /> -->
-		{{ form.as_p }}
-		<input type='submit' value='shorten' >
-	</form>
-
+			<div class='col-sm-5 col-centered'>
+				<form method='POST' action='.'> {% csrf_token %}
+					<!-- <input name='url' type='text' placeholder='Shorten your URL' /> -->
+					{{ form.as_p }}
+					<input class='btb btn-primary' type='submit' value='shorten' >
+				</form>
+			</div>
+		</div>
+	</div>
 </div>
+</body>
+</html>
+{% endblock content %}
