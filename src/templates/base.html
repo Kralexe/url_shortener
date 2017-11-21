@@ -5,6 +5,7 @@
 	<title>Kirr.co | {% block title %} Shorten that url {% endblock title %}</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
 	<link href="https://getbootstrap.com/docs/3.3/examples/cover/cover.css" rel="stylesheet">
+	{% block styles%}
 	<style>
 	.col-centered{
 		float: none;
@@ -12,18 +13,18 @@
 	}
 	body {
 		background-color: #1c3c2b;
-		background-image: url(http://livedoor.4.blogimg.jp/vsokuvip/imgs/1/5/157e6d9d.jpg);
 	}
 	.btn-link{
-		color: #3dcabf;
+		color: #ebff00;
 	}
 	.btn-link:hover{
-		color: #c73b3b;
+		color: #00fff7;
 	}
 	.h1{
 		color: #efff81;
 	}
 	</style>
+	{% endblock styles%}
 </head>
 
 <body>
